@@ -1,9 +1,11 @@
-# Counting Sundays
+# Euler Problem 019
+# Solved 20 January 2021
 
-#1 Jan 1900 was a monday
-#Therefor, 1 Jan 1901 is Tuesday
-#Mon%7=0, Tue%7=1, Wed%7=2, Thu%7=3, Fri%7=4, Sat%7=5
-#Sun%7=6
+# Counting Sundays
+# 1 Jan 1900 was a monday
+#T herefor, 1 Jan 1901 is Tuesday
+# Mon%7=0, Tue%7=1, Wed%7=2, Thu%7=3, Fri%7=4, Sat%7=5
+# Sun%7=6
 
 date = [1, 1, 1901] #Day month year
 days = 1
@@ -39,4 +41,5 @@ while date != [31, 12, 2000]:
                 date[0] = 0
         date[0] = date[0] + 1
     days = days + 1
-print(count, days, date)
+print(count)
+#print(count, days, date)
